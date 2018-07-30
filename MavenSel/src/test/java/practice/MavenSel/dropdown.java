@@ -8,9 +8,6 @@ import org.openqa.selenium.support.ui.Select;
 public class dropdown extends TestBase {
 
 	public static void main(String[] args) throws IOException {
-		
-		Login();
-		
 			
 		//check box example 
 		driver.findElement(By.id("ctl00_mainContent_chk_friendsandfamily")).click();

@@ -3,15 +3,18 @@ package practice.MavenSel;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
 
 
 
 public class RadioButton extends TestBase {
 
 			
-		public static void main(String[] args) throws IOException {
-			
-			Login();
+	//	public static void main(String[] args) throws IOException {
+	@Test		
+	public void dropdown() throws IOException
+	{
+	Login();
 			
 			//select the radio button 
 			driver.findElement(By.xpath("//input[@value='RoundTrip']")).click();
